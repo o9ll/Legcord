@@ -40,9 +40,9 @@
                 } else if (internal.isMicrosoftStore) {
                     console.log("Microsoft Store build detected. Skipping updater.")
                 } else {
-                    const response = await fetch("https://legcord.app/latest.json");
+                    const response = await fetch("https://api.github.com/repos/o9ll/Legcord/releases/latest");
                     const data = await response.json();
-                    const remoteVersion = data.version.replace(/\./g, ""); // easy to compare
+                    const remoteVersion = data.tag_name.replace(/^v/i, "").replace(/\./g, "");
                     if (remoteVersion > window.internal.version.replace(/\./g, "")) {
                         var elem = document.createElement("img");
                         elem.classList.add("logo");
