@@ -285,7 +285,9 @@
     </release>
   </releases>
   <url type="homepage">https://legcord.app</url>
+  <url type="homepage">https://github.com/o9ll/Legcord</url>
   <url type="bugtracker">https://github.com/o9ll/Legcord/issues</url>
+  <url type="faq">https://github.com/o9ll/Legcord#faq</url>
   <url type="faq">https://legcord.app/faq</url>
   <url type="donation">https://github.com/sponsors/smartfrigde</url>
   <url type="contact">https://discord.com/invite/TnhxcqynZ2</url>
