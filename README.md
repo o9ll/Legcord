@@ -42,15 +42,17 @@
 [![Packaging status](https://repology.org/badge/vertical-allrepos/legcord.svg)](https://repology.org/project/legcord/versions)
 
 ### Windows
-[Get the .exe installer](https://www.legcord.app/download)
 
-[<img src="https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png" width="200" />](https://winstall.app/apps/smartfrigde.Legcord)
+Download the latest `.exe` or `.zip` from the **[GitHub Releases](https://github.com/o9ll/Legcord/releases)** page.
+
+Build locally on Windows 11 — see [BUILD.md](BUILD.md) for dependencies and commands.
 
 ```pwsh
-winget install --id=smartfrigde.Legcord  -e
+pnpm install
+pnpm run package:win
 ```
 
-[<img src="https://learn.microsoft.com/en-us/windows/apps/images/new-badge-light.png" width="200" />](https://apps.microsoft.com/detail/9pdkjpv0wxlg?ocid=webpdpshare)
+Portable mode: add a `legcord-data` folder next to the executable (use the `.zip` build).
 
 ### Flatpak
 
@@ -146,7 +148,9 @@ Legcord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
  1. Clone Legcord repo: `git clone https://github.com/o9ll/Legcord.git`
  2. Run `pnpm install` to install dependencies
  3. Build with `pnpm run build`
- 4. Compile/Package with `pnpm run package`
+ 4. Run locally with `pnpm start`, or package with `pnpm run package:win` on Windows 11
+
+See [BUILD.md](BUILD.md) for full Windows 11 build instructions.
 
 # FAQ
 
