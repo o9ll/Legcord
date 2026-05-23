@@ -28,7 +28,7 @@ export const config: Configuration = {
     linux: {
         icon: "build/icon.icns",
         target: ["AppImage", "deb", "rpm", "tar.gz"],
-        maintainer: "linux@legcord.app",
+        maintainer: "o9-9 <https://github.com/o9ll/Legcord>",
         category: "Network",
         desktop: {
             entry: {
