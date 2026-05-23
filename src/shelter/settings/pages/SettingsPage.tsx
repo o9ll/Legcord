@@ -49,7 +49,7 @@ export function SettingsPage() {
                 onChange={(v) => setConfig("csp", v as Settings["csp"], true)}
                 title={store.i18n["settings-csp"]}
                 note={store.i18n["settings-csp-desc"]}
-                link="https://github.com/Legcord/Legcord/wiki/CSP-Options"
+                link="https://github.com/o9ll/Legcord/wiki/CSP-Options"
                 options={[
                     { label: store.i18n["settings-csp-none"], value: "none" },
                     { label: store.i18n["settings-csp-strict"], value: "strict" },
@@ -82,7 +82,7 @@ export function SettingsPage() {
                 onChange={(v) => setConfig("windowStyle", v as Settings["windowStyle"], true)}
                 title={store.i18n["settings-theme"]}
                 note={store.i18n["settings-theme-desc"]}
-                link="https://github.com/Legcord/Legcord/wiki/Settings-%5Bwip%5D#legcord-theme"
+                link="https://github.com/o9ll/Legcord/wiki/Settings-%5Bwip%5D#legcord-theme"
                 options={[
                     { label: store.i18n["settings-theme-default"], value: "default" },
                     { label: store.i18n["settings-theme-native"], value: "native" },
@@ -104,7 +104,7 @@ export function SettingsPage() {
                 onChange={(v) => setConfig("transparency", v as Settings["transparency"], true)}
                 title={store.i18n["settings-transparency"]}
                 note={store.i18n["settings-transparency-desc"]}
-                link="https://github.com/Legcord/Legcord/wiki/Transparency-options"
+                link="https://github.com/o9ll/Legcord/wiki/Transparency-options"
                 extraItems={
                     <Show
                         when={
@@ -153,7 +153,7 @@ export function SettingsPage() {
                     onChange={(v) => setConfig("windowMaterial", v as Settings["windowMaterial"], true)}
                     title={store.i18n["settings-material"]}
                     note={store.i18n["settings-material-desc"]}
-                    link="https://github.com/Legcord/Legcord/wiki/Settings-%5Bwip%5D#legcord-theme"
+                    link="https://github.com/o9ll/Legcord/wiki/Settings-%5Bwip%5D#legcord-theme"
                     options={[
                         { label: store.i18n["settings-material-mica"], value: "mica" },
                         { label: store.i18n["settings-material-mica-alt"], value: "tabbed" },
@@ -318,7 +318,7 @@ export function SettingsPage() {
                 onChange={(v) => setConfig("performanceMode", v as Settings["performanceMode"], true)}
                 title={store.i18n["settings-prfmMode"]}
                 note={store.i18n["settings-prfmMode-desc"]}
-                link="https://github.com/Legcord/Legcord/blob/dev/src/common/flags.ts"
+                link="https://github.com/o9ll/Legcord/blob/dev/src/common/flags.ts"
                 options={[
                     { label: store.i18n["settings-prfmMode-dynamic"], value: "dynamic" },
                     {

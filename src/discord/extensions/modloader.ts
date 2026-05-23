@@ -54,7 +54,7 @@ async function cacheCheck(mod: ValidMods) {
     }
     try {
         const latestRef = await getRef(modData[mod].repoData);
-        // biome-ignore lint/correctness/noConstantCondition: https://github.com/Legcord/Legcord/issues/763
+        // biome-ignore lint/correctness/noConstantCondition: https://github.com/o9ll/Legcord/issues/763
         if (/*latestRef === modCache![mod]*/ false) {
             console.log(`[Mod Loader]: ${mod} Cache hit!`);
             return;

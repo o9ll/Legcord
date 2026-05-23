@@ -62,7 +62,7 @@ Not available yet.
 
 You can install Legcord directly using the `.deb` packages published on the GitHub Releases page.
 
-1. Go to the Releases page: https://github.com/Legcord/Legcord/releases
+1. Go to the Releases page: https://github.com/o9ll/Legcord/releases
 2. Download the `.deb` that matches your architecture:
    - `amd64` (most Intel/AMD 64‑bit PCs)
    - `arm64` (AArch64, e.g. Raspberry Pi 4/5 64‑bit, ARM laptops)
@@ -76,7 +76,7 @@ Alternatively, you can copy the asset link from the release and install via term
 
 ```sh
 # Replace the URL below with the copied link to the .deb asset from the Releases page
-wget -O legcord.deb "https://github.com/Legcord/Legcord/releases/download/<tag>/<asset>.deb"
+wget -O legcord.deb "https://github.com/o9ll/Legcord/releases/download/<tag>/<asset>.deb"
 sudo apt install legcord.deb
 ```
 
@@ -137,13 +137,13 @@ Legcord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
 
 ### Pre-built binaries
 
- Check the **[releases tab](https://github.com/Legcord/Legcord/releases)** for precompiled packages for Linux, Windows, and macOS.
+ Check the **[releases tab](https://github.com/o9ll/Legcord/releases)** for precompiled packages for Linux, Windows, and macOS.
 
 ### Compiling
 
  Alternatively, you can run Legcord from source ([NodeJS](https://nodejs.dev) and [pnpm](https://pnpm.io/installation#using-npm)) are required:
 
- 1. Clone Legcord repo: `git clone https://github.com/Legcord/Legcord.git`
+ 1. Clone Legcord repo: `git clone https://github.com/o9ll/Legcord.git`
  2. Run `pnpm install` to install dependencies
  3. Build with `pnpm run build`
  4. Compile/Package with `pnpm run package`
@@ -172,7 +172,7 @@ Legcord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
 
 ## Where can I find the source code?
 
-- The source code is on [GitHub](https://github.com/Legcord/Legcord/).
+- The source code is on [GitHub](https://github.com/o9ll/Legcord/).
 
 ## Where can I translate this?
 

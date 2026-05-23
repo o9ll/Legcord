@@ -43,7 +43,7 @@ function generateDescription(description: string, descriptionNode: Element) {
     }
 }
 
-const latestReleaseInformation = await fetch("https://api.github.com/repos/Legcord/Legcord/releases/latest", {
+const latestReleaseInformation = await fetch("https://api.github.com/repos/o9ll/Legcord/releases/latest", {
     headers: {
         Accept: "application/vnd.github+json",
         "X-Github-Api-Version": "2022-11-28",

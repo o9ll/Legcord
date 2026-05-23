@@ -17,20 +17,20 @@
   <screenshots>
     <screenshot type="default">
       <caption>Legcord settings page on MacOS</caption>
-      <image type="source">https://github.com/Legcord/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/settings.png</image>
+      <image type="source">https://github.com/o9ll/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/settings.png</image>
     </screenshot>
     <screenshot>
       <caption>Legcord settings open with Shelter configs</caption>
-      <image type="source">https://github.com/Legcord/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/shelter.png</image>
+      <image type="source">https://github.com/o9ll/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/shelter.png</image>
     </screenshot>
     <screenshot>
       <caption>Legcord settings open with custom keybind settings shown</caption>
-      <image type="source">https://github.com/Legcord/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/keybinds.png</image>
+      <image type="source">https://github.com/o9ll/Legcord/blob/77e2ccafb221936a99654c237cb385d486780bc7/assets/screenshots/keybinds.png</image>
     </screenshot>
   </screenshots>
   <releases>
     <release version="1.2.4" date="2026-04-15" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.2.4</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.2.4</url>
       <description>
         <p>What’s New in Legcord v1.2.4 ✨</p>
         <ul>
@@ -49,32 +49,32 @@
           <li>🛡️ **New CSP options setting**</li>
         </ul>
         <ul>
-          <li>🪟 **Window material setting added** for supported systems ([https://github.com/Legcord/Legcord/pull/1025](https://github.com/Legcord/Legcord/pull/1025) by @passionvine).</li>
-          <li>📦 **OPTIONAL automatic Linux updates added** ([https://github.com/Legcord/Legcord/pull/1027](https://github.com/Legcord/Legcord/pull/1027) by @KarboXXX).</li>
+          <li>🪟 **Window material setting added** for supported systems ([https://github.com/o9ll/Legcord/pull/1025](https://github.com/o9ll/Legcord/pull/1025) by @passionvine).</li>
+          <li>📦 **OPTIONAL automatic Linux updates added** ([https://github.com/o9ll/Legcord/pull/1027](https://github.com/o9ll/Legcord/pull/1027) by @KarboXXX).</li>
           <li>🎛️ **Support banner popup added**</li>
         </ul>
         <ul>
-          <li>🖥️ Fixed Linux `StartupWMClass` to `legcord` ([https://github.com/Legcord/Legcord/pull/1021](https://github.com/Legcord/Legcord/pull/1021) by @khancyr).</li>
-          <li>📺 Fixed screensharing quality, FPS, and audio ([https://github.com/Legcord/Legcord/pull/1026](https://github.com/Legcord/Legcord/pull/1026) by @KarboXXX).</li>
-          <li>🎚️ Fixed scrollbar styling on file preview ([https://github.com/Legcord/Legcord/pull/1024](https://github.com/Legcord/Legcord/pull/1024) by @MahmodZE).</li>
-          <li>🔊 Fixed mute toggle sound effect playback ([https://github.com/Legcord/Legcord/pull/1031](https://github.com/Legcord/Legcord/pull/1031) by @psw01).</li>
-          <li>🎮 Fixed RPC status not disappearing properly ([https://github.com/Legcord/Legcord/pull/1032](https://github.com/Legcord/Legcord/pull/1032) by @Adrigamer2950).</li>
-          <li>🔐 Fixed security prompt appearing with no passkey ([https://github.com/Legcord/Legcord/pull/1033](https://github.com/Legcord/Legcord/pull/1033) by @dequeues).</li>
-          <li>🇫🇷 Added missing French translations for settings categories ([https://github.com/Legcord/Legcord/pull/1028](https://github.com/Legcord/Legcord/pull/1028) by @youtsuhodev).</li>
-          <li>⌨️ Polished keybinds UI ([https://github.com/Legcord/Legcord/pull/1038](https://github.com/Legcord/Legcord/pull/1038) by @youtsuhodev).</li>
-          <li>🎥 Fixed camera/mic device switching not working ([https://github.com/Legcord/Legcord/pull/1051](https://github.com/Legcord/Legcord/pull/1051) by @narasaka).</li>
-          <li>⚙️ Fixed settings shortcut behavior ([https://github.com/Legcord/Legcord/pull/1046](https://github.com/Legcord/Legcord/pull/1046) by @KirobotDev).</li>
-          <li>📏 Fixed dropdown height limit in Games settings ([https://github.com/Legcord/Legcord/pull/1045](https://github.com/Legcord/Legcord/pull/1045) by @youtsuhodev).</li>
-          <li>📐 Fixed dropdown max height calculation ([https://github.com/Legcord/Legcord/pull/1059](https://github.com/Legcord/Legcord/pull/1059) by @MahmodZE).</li>
-          <li>🧹 Cleanup of old fix-me notes and code polish ([https://github.com/Legcord/Legcord/pull/1060](https://github.com/Legcord/Legcord/pull/1060) by @KirobotDev).</li>
-          <li>📂 Fixed restore zip path traversal issue ([https://github.com/Legcord/Legcord/pull/1061](https://github.com/Legcord/Legcord/pull/1061) by @youtsuhodev).</li>
-          <li>🛡️ Added stricter CSP, better permission handling, and mod validation ([https://github.com/Legcord/Legcord/pull/1069](https://github.com/Legcord/Legcord/pull/1069) by @KirobotDev).</li>
+          <li>🖥️ Fixed Linux `StartupWMClass` to `legcord` ([https://github.com/o9ll/Legcord/pull/1021](https://github.com/o9ll/Legcord/pull/1021) by @khancyr).</li>
+          <li>📺 Fixed screensharing quality, FPS, and audio ([https://github.com/o9ll/Legcord/pull/1026](https://github.com/o9ll/Legcord/pull/1026) by @KarboXXX).</li>
+          <li>🎚️ Fixed scrollbar styling on file preview ([https://github.com/o9ll/Legcord/pull/1024](https://github.com/o9ll/Legcord/pull/1024) by @MahmodZE).</li>
+          <li>🔊 Fixed mute toggle sound effect playback ([https://github.com/o9ll/Legcord/pull/1031](https://github.com/o9ll/Legcord/pull/1031) by @psw01).</li>
+          <li>🎮 Fixed RPC status not disappearing properly ([https://github.com/o9ll/Legcord/pull/1032](https://github.com/o9ll/Legcord/pull/1032) by @Adrigamer2950).</li>
+          <li>🔐 Fixed security prompt appearing with no passkey ([https://github.com/o9ll/Legcord/pull/1033](https://github.com/o9ll/Legcord/pull/1033) by @dequeues).</li>
+          <li>🇫🇷 Added missing French translations for settings categories ([https://github.com/o9ll/Legcord/pull/1028](https://github.com/o9ll/Legcord/pull/1028) by @youtsuhodev).</li>
+          <li>⌨️ Polished keybinds UI ([https://github.com/o9ll/Legcord/pull/1038](https://github.com/o9ll/Legcord/pull/1038) by @youtsuhodev).</li>
+          <li>🎥 Fixed camera/mic device switching not working ([https://github.com/o9ll/Legcord/pull/1051](https://github.com/o9ll/Legcord/pull/1051) by @narasaka).</li>
+          <li>⚙️ Fixed settings shortcut behavior ([https://github.com/o9ll/Legcord/pull/1046](https://github.com/o9ll/Legcord/pull/1046) by @KirobotDev).</li>
+          <li>📏 Fixed dropdown height limit in Games settings ([https://github.com/o9ll/Legcord/pull/1045](https://github.com/o9ll/Legcord/pull/1045) by @youtsuhodev).</li>
+          <li>📐 Fixed dropdown max height calculation ([https://github.com/o9ll/Legcord/pull/1059](https://github.com/o9ll/Legcord/pull/1059) by @MahmodZE).</li>
+          <li>🧹 Cleanup of old fix-me notes and code polish ([https://github.com/o9ll/Legcord/pull/1060](https://github.com/o9ll/Legcord/pull/1060) by @KirobotDev).</li>
+          <li>📂 Fixed restore zip path traversal issue ([https://github.com/o9ll/Legcord/pull/1061](https://github.com/o9ll/Legcord/pull/1061) by @youtsuhodev).</li>
+          <li>🛡️ Added stricter CSP, better permission handling, and mod validation ([https://github.com/o9ll/Legcord/pull/1069](https://github.com/o9ll/Legcord/pull/1069) by @KirobotDev).</li>
           <li>Fixed first time setup</li>
         </ul>
       </description>
     </release>
     <release version="1.2.3" date="2026-04-15" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.2.3</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.2.3</url>
       <description>
         <p>What’s New in Legcord v1.2.3 ✨</p>
         <ul>
@@ -93,31 +93,31 @@
           <li>🛡️ **New CSP options setting**</li>
         </ul>
         <ul>
-          <li>🪟 **Window material setting added** for supported systems ([https://github.com/Legcord/Legcord/pull/1025](https://github.com/Legcord/Legcord/pull/1025) by @passionvine).</li>
-          <li>📦 **OPTIONAL automatic Linux updates added** ([https://github.com/Legcord/Legcord/pull/1027](https://github.com/Legcord/Legcord/pull/1027) by @KarboXXX).</li>
+          <li>🪟 **Window material setting added** for supported systems ([https://github.com/o9ll/Legcord/pull/1025](https://github.com/o9ll/Legcord/pull/1025) by @passionvine).</li>
+          <li>📦 **OPTIONAL automatic Linux updates added** ([https://github.com/o9ll/Legcord/pull/1027](https://github.com/o9ll/Legcord/pull/1027) by @KarboXXX).</li>
           <li>🎛️ **Support banner popup added**</li>
         </ul>
         <ul>
-          <li>🖥️ Fixed Linux `StartupWMClass` to `legcord` ([https://github.com/Legcord/Legcord/pull/1021](https://github.com/Legcord/Legcord/pull/1021) by @khancyr).</li>
-          <li>📺 Fixed screensharing quality, FPS, and audio ([https://github.com/Legcord/Legcord/pull/1026](https://github.com/Legcord/Legcord/pull/1026) by @KarboXXX).</li>
-          <li>🎚️ Fixed scrollbar styling on file preview ([https://github.com/Legcord/Legcord/pull/1024](https://github.com/Legcord/Legcord/pull/1024) by @MahmodZE).</li>
-          <li>🔊 Fixed mute toggle sound effect playback ([https://github.com/Legcord/Legcord/pull/1031](https://github.com/Legcord/Legcord/pull/1031) by @psw01).</li>
-          <li>🎮 Fixed RPC status not disappearing properly ([https://github.com/Legcord/Legcord/pull/1032](https://github.com/Legcord/Legcord/pull/1032) by @Adrigamer2950).</li>
-          <li>🔐 Fixed security prompt appearing with no passkey ([https://github.com/Legcord/Legcord/pull/1033](https://github.com/Legcord/Legcord/pull/1033) by @dequeues).</li>
-          <li>🇫🇷 Added missing French translations for settings categories ([https://github.com/Legcord/Legcord/pull/1028](https://github.com/Legcord/Legcord/pull/1028) by @youtsuhodev).</li>
-          <li>⌨️ Polished keybinds UI ([https://github.com/Legcord/Legcord/pull/1038](https://github.com/Legcord/Legcord/pull/1038) by @youtsuhodev).</li>
-          <li>🎥 Fixed camera/mic device switching not working ([https://github.com/Legcord/Legcord/pull/1051](https://github.com/Legcord/Legcord/pull/1051) by @narasaka).</li>
-          <li>⚙️ Fixed settings shortcut behavior ([https://github.com/Legcord/Legcord/pull/1046](https://github.com/Legcord/Legcord/pull/1046) by @KirobotDev).</li>
-          <li>📏 Fixed dropdown height limit in Games settings ([https://github.com/Legcord/Legcord/pull/1045](https://github.com/Legcord/Legcord/pull/1045) by @youtsuhodev).</li>
-          <li>📐 Fixed dropdown max height calculation ([https://github.com/Legcord/Legcord/pull/1059](https://github.com/Legcord/Legcord/pull/1059) by @MahmodZE).</li>
-          <li>🧹 Cleanup of old fix-me notes and code polish ([https://github.com/Legcord/Legcord/pull/1060](https://github.com/Legcord/Legcord/pull/1060) by @KirobotDev).</li>
-          <li>📂 Fixed restore zip path traversal issue ([https://github.com/Legcord/Legcord/pull/1061](https://github.com/Legcord/Legcord/pull/1061) by @youtsuhodev).</li>
-          <li>🛡️ Added stricter CSP, better permission handling, and mod validation ([https://github.com/Legcord/Legcord/pull/1069](https://github.com/Legcord/Legcord/pull/1069) by @KirobotDev).</li>
+          <li>🖥️ Fixed Linux `StartupWMClass` to `legcord` ([https://github.com/o9ll/Legcord/pull/1021](https://github.com/o9ll/Legcord/pull/1021) by @khancyr).</li>
+          <li>📺 Fixed screensharing quality, FPS, and audio ([https://github.com/o9ll/Legcord/pull/1026](https://github.com/o9ll/Legcord/pull/1026) by @KarboXXX).</li>
+          <li>🎚️ Fixed scrollbar styling on file preview ([https://github.com/o9ll/Legcord/pull/1024](https://github.com/o9ll/Legcord/pull/1024) by @MahmodZE).</li>
+          <li>🔊 Fixed mute toggle sound effect playback ([https://github.com/o9ll/Legcord/pull/1031](https://github.com/o9ll/Legcord/pull/1031) by @psw01).</li>
+          <li>🎮 Fixed RPC status not disappearing properly ([https://github.com/o9ll/Legcord/pull/1032](https://github.com/o9ll/Legcord/pull/1032) by @Adrigamer2950).</li>
+          <li>🔐 Fixed security prompt appearing with no passkey ([https://github.com/o9ll/Legcord/pull/1033](https://github.com/o9ll/Legcord/pull/1033) by @dequeues).</li>
+          <li>🇫🇷 Added missing French translations for settings categories ([https://github.com/o9ll/Legcord/pull/1028](https://github.com/o9ll/Legcord/pull/1028) by @youtsuhodev).</li>
+          <li>⌨️ Polished keybinds UI ([https://github.com/o9ll/Legcord/pull/1038](https://github.com/o9ll/Legcord/pull/1038) by @youtsuhodev).</li>
+          <li>🎥 Fixed camera/mic device switching not working ([https://github.com/o9ll/Legcord/pull/1051](https://github.com/o9ll/Legcord/pull/1051) by @narasaka).</li>
+          <li>⚙️ Fixed settings shortcut behavior ([https://github.com/o9ll/Legcord/pull/1046](https://github.com/o9ll/Legcord/pull/1046) by @KirobotDev).</li>
+          <li>📏 Fixed dropdown height limit in Games settings ([https://github.com/o9ll/Legcord/pull/1045](https://github.com/o9ll/Legcord/pull/1045) by @youtsuhodev).</li>
+          <li>📐 Fixed dropdown max height calculation ([https://github.com/o9ll/Legcord/pull/1059](https://github.com/o9ll/Legcord/pull/1059) by @MahmodZE).</li>
+          <li>🧹 Cleanup of old fix-me notes and code polish ([https://github.com/o9ll/Legcord/pull/1060](https://github.com/o9ll/Legcord/pull/1060) by @KirobotDev).</li>
+          <li>📂 Fixed restore zip path traversal issue ([https://github.com/o9ll/Legcord/pull/1061](https://github.com/o9ll/Legcord/pull/1061) by @youtsuhodev).</li>
+          <li>🛡️ Added stricter CSP, better permission handling, and mod validation ([https://github.com/o9ll/Legcord/pull/1069](https://github.com/o9ll/Legcord/pull/1069) by @KirobotDev).</li>
         </ul>
       </description>
     </release>
     <release version="1.2.2" date="2026-02-21" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.2.2</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.2.2</url>
       <description>
         <p>What’s New in Legcord v1.2.2 ✨</p>
         <ul>
@@ -126,17 +126,17 @@
         <ul>
           <li>⚡ **Electron updated** for better stability and compatibility.</li>
           <li>🎨 **Quick CSS toggle added**.</li>
-          <li>🪟 Fixed **Windows titlebar duplication** ([https://github.com/Legcord/Legcord/pull/1009](https://github.com/Legcord/Legcord/pull/1009) by @passionvine).</li>
+          <li>🪟 Fixed **Windows titlebar duplication** ([https://github.com/o9ll/Legcord/pull/1009](https://github.com/o9ll/Legcord/pull/1009) by @passionvine).</li>
           <li>🧪 **Custom Chromium flags support**</li>
         </ul>
         <ul>
-          <li>🛠️ Fixed **settings menu version patch** ([https://github.com/Legcord/Legcord/pull/1014](https://github.com/Legcord/Legcord/pull/1014) by @MahmodZE).</li>
-          <li>🧹 Fixed various **build warnings** ([https://github.com/Legcord/Legcord/pull/1017](https://github.com/Legcord/Legcord/pull/1017) by @MahmodZE).</li>
+          <li>🛠️ Fixed **settings menu version patch** ([https://github.com/o9ll/Legcord/pull/1014](https://github.com/o9ll/Legcord/pull/1014) by @MahmodZE).</li>
+          <li>🧹 Fixed various **build warnings** ([https://github.com/o9ll/Legcord/pull/1017](https://github.com/o9ll/Legcord/pull/1017) by @MahmodZE).</li>
         </ul>
       </description>
     </release>
     <release version="1.2.1" date="2026-01-30" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.2.1</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.2.1</url>
       <description>
         <p>What’s New in Legcord v1.2.1 ✨</p>
         <ul>
@@ -145,7 +145,7 @@
       </description>
     </release>
     <release version="1.2.0" date="2026-01-29" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.2.0</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.2.0</url>
       <description>
         <p>What’s New in Legcord v1.2.0 ✨</p>
         <ul>
@@ -175,22 +175,22 @@
           <li>🔗 **Discord deeplinks support** (`discord://`)</li>
         </ul>
         <ul>
-          <li>🧯 Fixed arRPC crashing ([https://github.com/Legcord/Legcord/pull/949](https://github.com/Legcord/Legcord/pull/949) by @PONYMODZ)</li>
-          <li>▶️ Fixed YouTube adblock issues ([https://github.com/Legcord/Legcord/pull/979](https://github.com/Legcord/Legcord/pull/979) by @Alangopro)</li>
-          <li>📖 Updated README with Debian installation instructions ([https://github.com/Legcord/Legcord/pull/972](https://github.com/Legcord/Legcord/pull/972) by @khancyr)</li>
-          <li>🧭 Fixed Equicord headerbar button overlap ([https://github.com/Legcord/Legcord/pull/990](https://github.com/Legcord/Legcord/pull/990) by @lbrooney)</li>
-          <li>🎨 Updated CSS variable names used on navigation buttons ([https://github.com/Legcord/Legcord/pull/989](https://github.com/Legcord/Legcord/pull/989) by @lbrooney)</li>
-          <li>📐 Fixed trailing bar collision with the navigation bar ([https://github.com/Legcord/Legcord/pull/993](https://github.com/Legcord/Legcord/pull/993) by @lbrooney)</li>
-          <li>📺 Fixed YouTube embeds in chat and Watch Together activity ([https://github.com/Legcord/Legcord/pull/994](https://github.com/Legcord/Legcord/pull/994) by @MahmodZE)</li>
-          <li>🧩 Refactored and redesigned several UI components ([https://github.com/Legcord/Legcord/pull/995](https://github.com/Legcord/Legcord/pull/995) by @MahmodZE)</li>
-          <li>⌨️ Improved the keybind maker ([https://github.com/Legcord/Legcord/pull/996](https://github.com/Legcord/Legcord/pull/996) by @MahmodZE)</li>
-          <li>🚀 Fixed a launch failure related to global shortcuts ([https://github.com/Legcord/Legcord/pull/1004](https://github.com/Legcord/Legcord/pull/1004) by @MahmodZE)</li>
-          <li>🖥️ Fixed an issue where the screenshare picker modal closes on click-outside and wouldn’t reopen ([https://github.com/Legcord/Legcord/pull/1002](https://github.com/Legcord/Legcord/pull/1002) by @MahmodZE)</li>
+          <li>🧯 Fixed arRPC crashing ([https://github.com/o9ll/Legcord/pull/949](https://github.com/o9ll/Legcord/pull/949) by @PONYMODZ)</li>
+          <li>▶️ Fixed YouTube adblock issues ([https://github.com/o9ll/Legcord/pull/979](https://github.com/o9ll/Legcord/pull/979) by @Alangopro)</li>
+          <li>📖 Updated README with Debian installation instructions ([https://github.com/o9ll/Legcord/pull/972](https://github.com/o9ll/Legcord/pull/972) by @khancyr)</li>
+          <li>🧭 Fixed Equicord headerbar button overlap ([https://github.com/o9ll/Legcord/pull/990](https://github.com/o9ll/Legcord/pull/990) by @lbrooney)</li>
+          <li>🎨 Updated CSS variable names used on navigation buttons ([https://github.com/o9ll/Legcord/pull/989](https://github.com/o9ll/Legcord/pull/989) by @lbrooney)</li>
+          <li>📐 Fixed trailing bar collision with the navigation bar ([https://github.com/o9ll/Legcord/pull/993](https://github.com/o9ll/Legcord/pull/993) by @lbrooney)</li>
+          <li>📺 Fixed YouTube embeds in chat and Watch Together activity ([https://github.com/o9ll/Legcord/pull/994](https://github.com/o9ll/Legcord/pull/994) by @MahmodZE)</li>
+          <li>🧩 Refactored and redesigned several UI components ([https://github.com/o9ll/Legcord/pull/995](https://github.com/o9ll/Legcord/pull/995) by @MahmodZE)</li>
+          <li>⌨️ Improved the keybind maker ([https://github.com/o9ll/Legcord/pull/996](https://github.com/o9ll/Legcord/pull/996) by @MahmodZE)</li>
+          <li>🚀 Fixed a launch failure related to global shortcuts ([https://github.com/o9ll/Legcord/pull/1004](https://github.com/o9ll/Legcord/pull/1004) by @MahmodZE)</li>
+          <li>🖥️ Fixed an issue where the screenshare picker modal closes on click-outside and wouldn’t reopen ([https://github.com/o9ll/Legcord/pull/1002](https://github.com/o9ll/Legcord/pull/1002) by @MahmodZE)</li>
         </ul>
       </description>
     </release>
     <release version="v1.1.3" date="2025-05-04" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.1.3</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.1.3</url>
       <description>
         <p>Improvements &amp; Fixes</p>
         <ul>
@@ -200,7 +200,7 @@
       </description>
     </release>
     <release version="v1.1.2" date="2025-05-04" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.1.2</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.1.2</url>
       <description>
         <p>Improvements &amp; Fixes</p>
         <ul>
@@ -212,7 +212,7 @@
       </description>
     </release>
     <release version="v1.1.1" date="2025-03-16" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.1.1</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.1.1</url>
       <description>
         <p>Improvements &amp; Fixes</p>
         <ul>
@@ -233,7 +233,7 @@
       </description>
     </release>
     <release version="v1.1.0" date="2025-01-13" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.1.0</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.1.0</url>
       <description>
         <ul>
           <li>**Theme Manager v2:**  </li>
@@ -248,48 +248,48 @@
       </description>
     </release>
     <release version="v1.0.8" date="2025-01-21" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.8</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.8</url>
       <description/>
     </release>
     <release version="v1.0.7" date="2025-01-20" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.7</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.7</url>
       <description/>
     </release>
     <release version="v1.0.6" date="2024-12-30" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.6</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.6</url>
       <description/>
     </release>
     <release version="v1.0.5" date="2024-11-26" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.5</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.5</url>
       <description/>
     </release>
     <release version="v1.0.4" date="2024-11-15" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.4</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.4</url>
       <description/>
     </release>
     <release version="v1.0.3" date="2024-11-12" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.3</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.3</url>
       <description/>
     </release>
     <release version="v1.0.2" date="2024-11-19" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.2</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.2</url>
       <description/>
     </release>
     <release version="devbuild" date="2024-10-12" type="development">
-      <url>https://github.com/Legcord/Legcord/releases/tag/devbuild</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/devbuild</url>
       <description/>
     </release>
     <release version="v1.0.0" date="2024-10-11" type="stable">
-      <url>https://github.com/Legcord/Legcord/releases/tag/v1.0.0</url>
+      <url>https://github.com/o9ll/Legcord/releases/tag/v1.0.0</url>
       <description/>
     </release>
   </releases>
   <url type="homepage">https://legcord.app</url>
-  <url type="bugtracker">https://github.com/Legcord/Legcord/issues</url>
+  <url type="bugtracker">https://github.com/o9ll/Legcord/issues</url>
   <url type="faq">https://legcord.app/faq</url>
   <url type="donation">https://github.com/sponsors/smartfrigde</url>
   <url type="contact">https://discord.com/invite/TnhxcqynZ2</url>
-  <url type="vcs-browser">https://github.com/Legcord/Legcord</url>
+  <url type="vcs-browser">https://github.com/o9ll/Legcord</url>
   <categories>
     <category>InstantMessaging</category>
     <category>Network</category>

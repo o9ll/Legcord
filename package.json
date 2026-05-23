@@ -22,15 +22,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Legcord/Legcord.git"
+        "url": "git+https://github.com/o9ll/Legcord.git"
     },
     "author": "smartfrigde",
     "license": "OSL-3.0",
     "type": "module",
     "bugs": {
-        "url": "https://github.com/Legcord/Legcord/issues"
+        "url": "https://github.com/o9ll/Legcord/issues"
     },
-    "homepage": "https://github.com/Legcord/Legcord#readme",
+    "homepage": "https://github.com/o9ll/Legcord#readme",
     "devDependencies": {
         "@biomejs/biome": "1.9.4",
         "@rolldown-plugin/solid": "^0.0.4",

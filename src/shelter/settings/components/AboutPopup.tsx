@@ -20,7 +20,7 @@ export const AboutPopup = (props: { close: () => void }) => {
     const [error, setError] = createSignal<string | null>(null);
 
     onMount(() => {
-        fetch("https://api.github.com/repos/Legcord/Legcord/contributors")
+        fetch("https://api.github.com/repos/o9ll/Legcord/contributors")
             .then((response) => {
                 if (!response.ok) throw new Error("Failed to fetch contributors");
                 return response.json();
@@ -56,7 +56,7 @@ export const AboutPopup = (props: { close: () => void }) => {
                             <button
                                 type="button"
                                 class={classes.quickActionButton}
-                                onClick={() => window.open("https://github.com/Legcord/Legcord", "_blank")}
+                                onClick={() => window.open("https://github.com/o9ll/Legcord", "_blank")}
                             >
                                 <span class={classes.quickActionButtonIcon}>
                                     <svg
