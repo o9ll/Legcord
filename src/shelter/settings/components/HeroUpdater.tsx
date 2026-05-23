@@ -4,19 +4,19 @@ const {
     ui: { Button, ButtonSizes, Header, HeaderTags, Text, ButtonColors },
 } = shelter;
 const LOGO_URL = "https://github.com/Legcord/Branding/raw/main/assets/legcord-banner.png";
+const RELEASES_API = "https://api.github.com/repos/o9ll/Legcord/releases/latest";
+const DOWNLOAD_URL = "https://github.com/o9ll/Legcord/releases/latest";
 
 async function checkForUpdates() {
-    const response = await fetch("https://legcord.app/latest.json");
+    const response = await fetch(RELEASES_API);
     const data = await response.json();
-    const remoteVersion = data.version.replace(/\./g, ""); // easy to compare
+    const remoteVersion = data.tag_name.replace(/^v/i, "").replace(/\./g, "");
     if (remoteVersion > window.legcord.version.replace(/\./g, "")) {
         return true;
     } else {
         return false;
     }
 }
-
-const DOWNLOAD_URL = "https://legcord.app/download";
 
 export const HeroUpdater = () => {
     const [checking, setChecking] = createSignal(false);
